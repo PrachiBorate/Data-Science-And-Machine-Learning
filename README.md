@@ -168,11 +168,18 @@ model.coef_
 x
 
 r=int(input("\n 0.Acura \t 1.Audi \t 2.BMW\t 3.Honda \n enter the manufacture: "))
+
 a=int(input("\n0.Integral  1.A8, 2. 328i \t 3.Passport\n enter the model: "))
+
 g=int(input("\n 0.16.919\t 1.38 \t 9.231 \t 12.855\n enter the sales: "))
+
 m=0.0
+
 year=int(input("\nEnter the prices : "))
+
 unknown_y=[[r,a,g,m,year]]
+
 ynew=model.predict(unknown_y)
+
 print("\n\nThe prices of car: ",ynew)
 
