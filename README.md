@@ -1,4 +1,4 @@
-# Car Price Prediction
+# Car_Price_Prediction
 This project involves analyzing car data to predict car prices based on features like manufacturer, model, sales, and other specifications. The workflow includes data cleaning, exploratory data analysis (EDA), preprocessing, and predictive modeling using Linear Regression.
 
 ## Features
